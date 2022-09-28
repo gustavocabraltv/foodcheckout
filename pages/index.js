@@ -94,7 +94,7 @@ return (
 
   </div>
 
-        <div className='w-full px-12 py-16 bg-[white] dark:bg-zinc-800 h-screen  '>
+        <div className='w-full px-4 py-8 bg-[white] dark:bg-zinc-800 h-screen  '>
           <h1 className='text-[black] text-[21px] mb-8 dark:text-white'>Identificação</h1>
           <div>
             <h2 className='text-[black]  text-[16px] dark:text-zinc-400'>Seu telefone</h2>
