@@ -157,7 +157,7 @@ return (
               <li className="relative">
                   <input className="sr-only peer" defaultChecked type="radio" value="yes" name="answer" id="answer_yes"/>
 
-                  <label className="flex flex-col p-5 dark:bg-zinc-900 dark:border-none border border-gray-300 rounded-lg cursor-pointer focus:outline-none hover:bg-gray-50 peer-checked:ring-black dark:peer-checked:ring-white peer-checked:ring-1 peer-checked:border-transparent" for="answer_yes">
+                  <label className="flex flex-col p-5 dark:bg-zinc-900 dark:border-none border border-gray-300 rounded-lg cursor-pointer  focus:outline-none hover:bg-gray-50 peer-checked:ring-black dark:peer-checked:ring-white peer-checked:ring-1 peer-checked:border-transparent" for="answer_yes">
                     <span className='dark:text-zinc-300'>ENTREGA</span>
                     <span className='text-sm text-[#848484]'>Motoboy entrega na sua casa</span>
 
