@@ -86,7 +86,7 @@ return (
 
 
 <div className=' grid lg:grid-cols-2 grid-cols-1 items-center bg-[#fafafa]  '>
-  <div className='flex w-full justify-end border-r-[1.5px] border-slate-200 dark:border-zinc-600 h-32 lg:h-screen dark:bg-zinc-900'>
+  <div className='flex w-full justify-end border-r-[1.5px] dark:border-zinc-700 border-slate-200 h-32 lg:h-screen dark:bg-zinc-900'>
     <div className='max-w-[640px]  w-full items-center justify-center flex'>
 
          <button className='bg-[black] text-white px-6 py-2 rounded dark:text-black dark:bg-zinc-50' onClick={toggleTheme}>Dark / Ligth</button>
@@ -155,7 +155,7 @@ return (
           <ul className="flex flex-col gap-5  mx-auto text-[black]">
             
               <li className="relative">
-                  <input className="sr-only peer" checked type="radio" value="yes" name="answer" id="answer_yes"/>
+                  <input className="sr-only peer" defaultChecked type="radio" value="yes" name="answer" id="answer_yes"/>
 
                   <label className="flex flex-col p-5 dark:bg-zinc-900 dark:border-none border border-gray-300 rounded-lg cursor-pointer focus:outline-none hover:bg-gray-50 peer-checked:ring-black dark:peer-checked:ring-white peer-checked:ring-1 peer-checked:border-transparent" for="answer_yes">
                     <span className='dark:text-zinc-300'>ENTREGA</span>
