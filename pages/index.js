@@ -94,7 +94,9 @@ return (
 
   </div>
 
-        <div className='w-full px-4 py-8 bg-[white] dark:bg-zinc-800 h-screen  '>
+<div className='flex w-full justify-start border-r-[1.5px] dark:border-zinc-700 border-slate-200 h-screen lg:h-screen bg-[white] dark:bg-zinc-800'>
+  <div className='max-w-[640px] lg:pl-8 lg:py-16 px-4 py-8'>
+        <div className=''>
           <h1 className='text-[black] text-[21px] mb-8 dark:text-white'>Identificação</h1>
           <div>
             <h2 className='text-[black]  text-[16px] dark:text-zinc-400'>Seu telefone</h2>
@@ -141,7 +143,7 @@ return (
                   
           </div>
           <div className='py-8 '>
-            <hr className='border-gray-300 dark:border-gray-800 '/>
+            <hr className='border-gray-300 dark:border-gray-600 '/>
           </div>
 
           
@@ -185,6 +187,9 @@ return (
       
           </div>
         </div>
+  </div>
+  </div>
+      
 
 </div>
 )
