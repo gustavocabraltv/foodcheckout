@@ -170,13 +170,13 @@ return (
               </li>
 
           <li class="relative ">
-              <input  class="sr-only peer" type="radio" value="no" name="answer" id="answer_no"/>
-              <label class="dark:bg-zinc-900 dark:border-0 flex flex-col p-5 bg-white border border-gray-300 rounded-lg cursor-pointer focus:outline-none hover:bg-gray-50 peer-checked:ring-black dark:peer-checked:ring-white peer-checked:ring-1 peer-checked:border-transparent" for="answer_no">
+              <input  className="sr-only peer" type="radio" value="no" name="answer" id="answer_no"/>
+              <label className="dark:bg-zinc-900 dark:border-0 flex flex-col p-5 bg-white border border-gray-300 rounded-lg cursor-pointer focus:outline-none hover:bg-gray-50 peer-checked:ring-black dark:peer-checked:ring-white peer-checked:ring-1 peer-checked:border-transparent" for="answer_no">
               <span className='dark:text-zinc-300'>RETIRADA</span>
                     <span className='text-sm text-[#848484]'>Motoboy entrega na sua casa</span>
               </label>
 
-              <div class="absolute hidden w-5 h-5 peer-checked:block top-5 right-3">
+              <div className="absolute hidden w-5 h-5 peer-checked:block top-5 right-3">
                 👎
               </div>
         </li>
