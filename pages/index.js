@@ -86,7 +86,7 @@ return (
 
 
 <div className=' grid lg:grid-cols-2 grid-cols-1 items-center bg-[#fafafa]  '>
-  <div className='flex w-full justify-end border-r-[1.5px] border-slate-200 h-32 lg:h-screen dark:bg-zinc-900'>
+  <div className='flex w-full justify-end border-r-[1.5px] border-slate-200 dark:border-zinc-600 h-32 lg:h-screen dark:bg-zinc-900'>
     <div className='max-w-[640px]  w-full items-center justify-center flex'>
 
          <button className='bg-[black] text-white px-6 py-2 rounded dark:text-black dark:bg-zinc-50' onClick={toggleTheme}>Dark / Ligth</button>
